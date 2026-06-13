@@ -12,8 +12,8 @@ def generate_row():
 
     return {
         "distance": round(random.uniform(0.0, 15.0), 2),
-        "area": round(random.uniform(1.0, 120.0), 2),
-        "cost": random.randint(1, 100),
+        "area": random.randint(1, 120),
+        "cost": round(random.uniform(1.0, 1000.0), 2),
         "district": random.choice(["Южное Бутово", "Северное Бутово", "Щербинка"]),
     }
 
