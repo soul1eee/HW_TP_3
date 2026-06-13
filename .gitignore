@@ -1,19 +1,10 @@
-
 data/
-
 local_data/
-
 __pycache__/
-
 *.pyc
-
 .venv/
-
 *.log
-
 .idea/
-
 .vscode/
-
 .DS_Store
 
